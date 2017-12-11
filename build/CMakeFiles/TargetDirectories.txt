@@ -1,0 +1,3 @@
+/home/simeoni/Documents/ProjetJeuSDL/build/CMakeFiles/edit_cache.dir
+/home/simeoni/Documents/ProjetJeuSDL/build/CMakeFiles/rebuild_cache.dir
+/home/simeoni/Documents/ProjetJeuSDL/build/CMakeFiles/alpha-mario.dir
