@@ -16,6 +16,6 @@ add_executable(alpha-mario
         src/fonctionsPersonnage.c src/fonctionsPersonnage.h)
 
 target_compile_options(alpha-mario PUBLIC ${SDL2_CFLAGS_OTHER})
-target_link_libraries(alpha-mario ${SDL2_LIBRAIRIES})
+target_link_libraries(alpha-mario ${SDL2_LIBRARIES})
 include_directories(alpha-mario ${SDL2_INCLUDE_DIRS})
 

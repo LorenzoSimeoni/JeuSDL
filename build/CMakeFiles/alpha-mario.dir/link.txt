@@ -1,1 +1,1 @@
-/usr/lib/ccache/cc   -std=c99   CMakeFiles/alpha-mario.dir/src/main.c.o CMakeFiles/alpha-mario.dir/src/fonctionsBasiques.c.o CMakeFiles/alpha-mario.dir/src/fonctionsMenu.c.o CMakeFiles/alpha-mario.dir/src/fonctionsPersonnage.c.o  -o alpha-mario 
+/usr/lib/ccache/cc   -std=c99   CMakeFiles/alpha-mario.dir/src/main.c.o CMakeFiles/alpha-mario.dir/src/fonctionsBasiques.c.o CMakeFiles/alpha-mario.dir/src/fonctionsMenu.c.o CMakeFiles/alpha-mario.dir/src/fonctionsPersonnage.c.o  -o alpha-mario -lSDL2 
