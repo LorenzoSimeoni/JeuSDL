@@ -6,7 +6,7 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99")
 
 
 find_package(PkgConfig)
-pkg_check_modules(SDL2 REQUIRED)
+pkg_check_modules(SDL2 REQUIRED sdl2)
 
 
 add_executable(alpha-mario
