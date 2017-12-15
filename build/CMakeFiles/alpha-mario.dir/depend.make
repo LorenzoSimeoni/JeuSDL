@@ -16,4 +16,9 @@ CMakeFiles/alpha-mario.dir/src/main.c.o: ../src/fonctionsBasiques.h
 CMakeFiles/alpha-mario.dir/src/main.c.o: ../src/fonctionsMenu.h
 CMakeFiles/alpha-mario.dir/src/main.c.o: ../src/fonctionsPersonnage.h
 CMakeFiles/alpha-mario.dir/src/main.c.o: ../src/main.c
+CMakeFiles/alpha-mario.dir/src/main.c.o: ../src/map.h
+
+CMakeFiles/alpha-mario.dir/src/map.c.o: ../src/fonctionsBasiques.h
+CMakeFiles/alpha-mario.dir/src/map.c.o: ../src/map.c
+CMakeFiles/alpha-mario.dir/src/map.c.o: ../src/map.h
 

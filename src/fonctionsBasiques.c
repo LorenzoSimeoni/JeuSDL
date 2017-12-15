@@ -68,6 +68,7 @@ SDL_Texture *loadImage(const char path[], SDL_Renderer *renderer)
         fprintf(stderr, "Erreur SDL_LoadBMP : %s", SDL_GetError());
         return NULL;
     }
+    SDL_SetColorKey(tmp, SDL_TRUE, SDL_MapRGB(tmp->format, 255, 26, 255));
     texture = SDL_CreateTextureFromSurface(renderer, tmp);
     SDL_FreeSurface(tmp);
     if(NULL == texture)
@@ -78,9 +79,14 @@ SDL_Texture *loadImage(const char path[], SDL_Renderer *renderer)
     return texture;
 }
 
-void Destroyer(SDL_Texture *texture,
+void Destroyer(SDL_Texture **textureSol,SDL_Texture *texture,
     SDL_Renderer *renderer, SDL_Window *window)
 {
+    for(int k = 0; k< 30; k++){
+        if(textureSol[k] != NULL){
+            SDL_DestroyTexture(texture);
+        }
+    }
     if(texture != NULL)
         SDL_DestroyTexture(texture);
     if(renderer != NULL)

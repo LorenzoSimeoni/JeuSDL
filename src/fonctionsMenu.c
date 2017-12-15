@@ -75,7 +75,7 @@ int Menu()
     */
     SDL_WaitEvent(&event);
     if(event.type == SDL_QUIT)
-        return SDL_TRUE;
+        return 1;
     else if(event.type == SDL_MOUSEBUTTONUP) {
         if(event.button.button == SDL_BUTTON_LEFT && 
             (event.motion.x >=  W/(2.0+2.0/3.0) &&  event.motion.x <=  W/(2.0+2.0/3.0) + 0.25*W)

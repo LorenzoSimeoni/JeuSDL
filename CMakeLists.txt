@@ -13,7 +13,8 @@ add_executable(alpha-mario
         src/main.c
         src/fonctionsBasiques.c src/fonctionsBasiques.h 
         src/fonctionsMenu.c src/fonctionsMenu.h
-        src/fonctionsPersonnage.c src/fonctionsPersonnage.h)
+        src/fonctionsPersonnage.c src/fonctionsPersonnage.h
+        src/map.c src/map.h)
 
 target_compile_options(alpha-mario PUBLIC ${SDL2_CFLAGS_OTHER})
 target_link_libraries(alpha-mario ${SDL2_LIBRARIES})

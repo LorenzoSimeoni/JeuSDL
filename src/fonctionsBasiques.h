@@ -19,7 +19,7 @@ int setWindowColor(SDL_Renderer *renderer, SDL_Color color);
 int init(SDL_Window **window, SDL_Renderer **renderer, 
     int w, int h);
 SDL_Texture *loadImage(const char path[], SDL_Renderer *renderer);
-void Destroyer(SDL_Texture *texture,
+void Destroyer(SDL_Texture **textureSol, SDL_Texture *texture,
 	SDL_Renderer *renderer, SDL_Window *window);
 
 void icone(SDL_Window *window);

@@ -231,6 +231,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/alpha-mario.dir/build.make CMakeFiles/alpha-mario.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/map.o: src/map.c.o
+
+.PHONY : src/map.o
+
+# target to build an object file
+src/map.c.o:
+	$(MAKE) -f CMakeFiles/alpha-mario.dir/build.make CMakeFiles/alpha-mario.dir/src/map.c.o
+.PHONY : src/map.c.o
+
+src/map.i: src/map.c.i
+
+.PHONY : src/map.i
+
+# target to preprocess a source file
+src/map.c.i:
+	$(MAKE) -f CMakeFiles/alpha-mario.dir/build.make CMakeFiles/alpha-mario.dir/src/map.c.i
+.PHONY : src/map.c.i
+
+src/map.s: src/map.c.s
+
+.PHONY : src/map.s
+
+# target to generate assembly for a file
+src/map.c.s:
+	$(MAKE) -f CMakeFiles/alpha-mario.dir/build.make CMakeFiles/alpha-mario.dir/src/map.c.s
+.PHONY : src/map.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/map.o"
+	@echo "... src/map.i"
+	@echo "... src/map.s"
 .PHONY : help
 
 

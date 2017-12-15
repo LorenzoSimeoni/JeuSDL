@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/alpha-mario.dir/src/fonctionsBasiques.c.o"
   "CMakeFiles/alpha-mario.dir/src/fonctionsMenu.c.o"
   "CMakeFiles/alpha-mario.dir/src/fonctionsPersonnage.c.o"
+  "CMakeFiles/alpha-mario.dir/src/map.c.o"
   "alpha-mario.pdb"
   "alpha-mario"
 )
